@@ -1,0 +1,16 @@
+<body>
+
+    <h1>API Typicode</h1>
+    
+    <h2>Lista de Comentarios</h2>
+    
+    <section>
+    <div *ngFor="let comentario of comentarios">
+        <b>ID: </b>{{ comentario.postId }}<br>
+        <b>Nome: </b>{{ comentario.name }}<br>
+        <b>Email: </b>{{ comentario.email }}<br>
+        <b>Menssagem: </b>{{ comentario.body}}<br>
+        <hr>
+    </div>
+    </section>
+    </body>

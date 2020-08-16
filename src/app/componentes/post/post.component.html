@@ -1,0 +1,15 @@
+<body>
+
+    <h1>API Typicode</h1>
+    
+    <h2>Lista de Posts</h2>
+    
+    <section>
+    <div *ngFor="let post of posts">
+        <b>ID: </b>{{ post.id }}<br>
+        <b>Título: </b>{{ post.title }}<br>
+        <b>Menssagem: </b>{{ post.body}}<br>
+        <hr>
+    </div>
+    </section>
+    </body>

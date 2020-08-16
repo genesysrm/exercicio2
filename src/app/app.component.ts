@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { UsuariosComponent } from './usuarios/usuarios.component';
+import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @Component({

@@ -1,0 +1,28 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    color: lightslategray;  
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: lightslategray;  
+}
+
+section {
+    background-color: lightslategray;
+    color: lightyellow;
+    width: 450px;
+    align-items: center;
+    text-align: left;
+    margin-left: 450px;
+}
+
+b{
+    color: lightyellow;
+}
